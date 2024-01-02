@@ -5,3 +5,23 @@
     box-sizing: border-box;
 }
     
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.square:hover{
+        margin-left: 15px;
+        border-radius: 20%;
+        background-color: rgb(149, 115, 13);
+        transition-duration: 2s;
+    }
+.square:hover{
+        margin-left: 10px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgb(218, 80, 0);
+        transition-duration: 3s;
+    }
