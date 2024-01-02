@@ -5,12 +5,20 @@
     box-sizing: border-box;
 }
 .bor{
-    width: 200px;
-    height: 150px;
-    background-color: rgb(203, 243, 247);
+    position: relative;
+    width: 193px;
+    height: 220px;
+    background-color: rgb(28, 134, 255);
     color: black;
-    border: 3px solid rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
     padding: 30px;
     margin: 10px;
-    
+}
+img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: -2px;
+    left: -14px;
+    filter: drop-shadow( 0.6cm 0cm);
 }
