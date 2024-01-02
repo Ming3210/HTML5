@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.bor{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(203, 243, 247);
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 10px;
+    
+}
+.cir{
+    list-style-type: circle;
+}
